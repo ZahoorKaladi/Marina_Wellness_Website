@@ -1,7 +1,7 @@
 // src/components/Layout.jsx
 import React from 'react';
-import Navbar from './navbar';
-import Footer from './footer'; // <-- Import the new Footer component
+import navbar from './navbar';
+import footer from './footer'; // <-- Import the new Footer component
 
 const Layout = ({ children }) => {
   return (
